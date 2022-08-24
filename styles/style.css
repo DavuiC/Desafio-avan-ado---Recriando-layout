@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: #2C2B3D;
+}
+
+.container {
+  padding: 0 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.navegation {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0px;
+}
+
+.navegation ul {
+  display: flex;
+  list-style: none;
+  width: 25%;
+  justify-content: space-between;
+}
+
+.navegation ul li a {
+  text-decoration: none;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.navegation ul li a:hover {
+  text-decoration: underline;
+}
+
+.main-home {
+  display: flex;
+  margin: 100px 0;
+}
+
+.main-home figure {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  color: #00BFA6;
+}
+
+strong {
+  color: #C2C2C2;
+}
+
+.main-home section {
+  width: 50%;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.main-home section h1 {
+  margin-bottom: 70px;
+  font-size: 50px;
+  line-height: 30px
+}
+
+.main-home section h2 {
+  color: #7D7987;
+  font-size: 20px;
+}
+
+.main-home section h3 {
+  margin-top: 50px;
+  color: #7D7987;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  list-style: none;
+}
+
+footer h1 {
+  margin-top: 30px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer h1 a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.line {
+  margin: 0 auto;
+  width: 50%;
+  border: 1px solid #00BFA6;
+}
+
+#padlock {
+  position: fixed;
+  top: 92%;
+  left: 1%;
+}
